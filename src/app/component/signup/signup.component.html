@@ -1,0 +1,7 @@
+<p>signup works!</p>
+<form [formGroup]="loginForm">
+    <input type="text" placeholder="enter username" name="user"  formControlName="user"><br><br>
+    <input type="email" placeholder="enter email" name="email" formControlName="email"><br><br>
+    <input type="password" placeholder="enter password" name="password" formControlName="password"><br><br>
+</form>
+<button type="submit" (click)="onSubmit()"> submit</button>

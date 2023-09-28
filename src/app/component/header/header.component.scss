@@ -1,0 +1,28 @@
+.form-control {
+    border-radius: 3px;
+    width: 600px;
+    margin-left: 20px;
+}
+
+.search-icon {
+    z-index: 10;
+    right: 59%;
+    top: 20px;
+    color: blue;
+}
+.logo{
+    padding: 3vh 3vw;
+    text-align: left;
+    width: 20vw;
+}
+
+.logo img{
+    height: auto;
+    width: 4rem;
+}
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }

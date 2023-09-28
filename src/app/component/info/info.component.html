@@ -1,0 +1,6 @@
+<div style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Item Id:{{ umar?.id  }}</div>
+<div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">{{ umar?.title }}</div>
+<div><img src={{umar?.image}} alt=""  width="300px" ></div>
+<div>{{umar?.description}}</div>
+<div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; "> Price:{{umar?.price}}</div>
+<button class="btn btn-primary" (click)="addtocart(umar)" >Add to cart</button>

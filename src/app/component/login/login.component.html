@@ -1,0 +1,25 @@
+<!-- <form [formGroup]="loginForm">
+    <input type="email" placeholder="enter email" name="email" formControlName="email"><br><br>
+    <input type="password" placeholder="enter password" name="password" formControlName="password"><br><br>
+</form> -->
+<!-- <button type="button" (click)="onSubmit()"> submit</button> -->
+<div class="wrapper">
+    <div class="logo">
+        <img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png" alt="">
+    </div>
+    <div class="text-center mt-4 name">
+        Twitter
+    </div>
+    <form class="p-3 mt-3" [formGroup]="loginForm">
+        <div class="form-field d-flex align-items-center">
+            <input type="email" placeholder="enter email" name="email" formControlName="email">
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <input type="password" placeholder="enter password" name="password" formControlName="password">
+        </div>
+        <button class="btn mt-3" (click)="onSubmit()">Login</button>
+    </form>
+    <div class="text-center fs-6">
+        <a href="#">Forget password?</a> or <a href="#">Sign up</a>
+    </div>
+</div>
